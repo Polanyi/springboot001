@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.isb</groupId>
-	<artifactId>Spring Boot Sample 02</artifactId>
+	<artifactId>Spring-Boot-Sample-02</artifactId>
 	<version>0.0.1</version>
 	<name>z_SpringBootSample02</name>
 	<description>Demo project for Spring Boot</description>
@@ -29,6 +29,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
